@@ -1,0 +1,502 @@
+2025-05-05 16:05:52 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:05:52 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 15932 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:05:52 -The following 1 profile is active: "dev"
+2025-05-05 16:05:52 -Tomcat initialized with port(s): 8989 (http)
+2025-05-05 16:05:52 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:05:52 -Starting service [Tomcat]
+2025-05-05 16:05:52 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-05 16:05:53 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:05:53 -Root WebApplicationContext: initialization completed in 844 ms
+2025-05-05 16:05:53 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:05:53 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-05 16:05:53 -Started AppServiceApplication in 1.985 seconds (JVM running for 4.213)
+2025-05-05 16:06:00 -Starting ImMessageStoreApplication using Java 11.0.24 on llleee with PID 41176 (D:\aaa\im-system\im-message-store\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:06:00 -The following 1 profile is active: "dev"
+2025-05-05 16:06:00 -Tomcat initialized with port(s): 8080 (http)
+2025-05-05 16:06:00 -Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 16:06:00 -Starting service [Tomcat]
+2025-05-05 16:06:00 -Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-05 16:06:00 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:06:00 -Root WebApplicationContext: initialization completed in 797 ms
+2025-05-05 16:06:01 -Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 16:06:01 -Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 16:06:02 -Attempting to connect to: [localhost:5672]
+2025-05-05 16:06:02 -Created new connection: rabbitConnectionFactory#2d206a71:0/SimpleConnection@482a58c7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63724]
+2025-05-05 16:06:02 -Started ImMessageStoreApplication in 2.198 seconds (JVM running for 3.802)
+2025-05-05 16:06:16 -Waiting for workers to finish.
+2025-05-05 16:06:16 -Waiting for workers to finish.
+2025-05-05 16:06:17 -Successfully waited for workers to finish.
+2025-05-05 16:06:17 -Successfully waited for workers to finish.
+2025-05-05 16:06:17 -Shutdown ignored - container is already stopped
+2025-05-05 16:06:17 -Shutdown ignored - container is already stopped
+2025-05-05 16:06:20 -Starting ImMessageStoreApplication using Java 11.0.24 on llleee with PID 27144 (D:\aaa\im-system\im-message-store\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:06:20 -The following 1 profile is active: "dev"
+2025-05-05 16:06:20 -Tomcat initialized with port(s): 8080 (http)
+2025-05-05 16:06:20 -Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 16:06:20 -Starting service [Tomcat]
+2025-05-05 16:06:20 -Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-05 16:06:20 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:06:20 -Root WebApplicationContext: initialization completed in 493 ms
+2025-05-05 16:06:21 -Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 16:06:21 -Attempting to connect to: [localhost:5672]
+2025-05-05 16:06:21 -Created new connection: rabbitConnectionFactory#1c7f9861:0/SimpleConnection@6b09ce57 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63739]
+2025-05-05 16:06:21 -Started ImMessageStoreApplication in 1.669 seconds (JVM running for 2.69)
+2025-05-05 16:06:21 -Waiting for workers to finish.
+2025-05-05 16:06:21 -Waiting for workers to finish.
+2025-05-05 16:06:22 -Successfully waited for workers to finish.
+2025-05-05 16:06:22 -Successfully waited for workers to finish.
+2025-05-05 16:06:22 -Shutdown ignored - container is already stopped
+2025-05-05 16:06:22 -Shutdown ignored - container is already stopped
+2025-05-05 16:06:25 -Starting ImMessageStoreApplication using Java 11.0.24 on llleee with PID 28296 (D:\aaa\im-system\im-message-store\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:06:25 -The following 1 profile is active: "dev"
+2025-05-05 16:06:25 -Tomcat initialized with port(s): 8080 (http)
+2025-05-05 16:06:25 -Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-05 16:06:25 -Starting service [Tomcat]
+2025-05-05 16:06:25 -Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-05 16:06:25 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:06:25 -Root WebApplicationContext: initialization completed in 487 ms
+2025-05-05 16:06:26 -Starting ProtocolHandler ["http-nio-8080"]
+2025-05-05 16:06:26 -Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-05 16:06:26 -Attempting to connect to: [localhost:5672]
+2025-05-05 16:06:26 -Created new connection: rabbitConnectionFactory#2ce524d2:0/SimpleConnection@76e6c070 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63750]
+2025-05-05 16:06:26 -Started ImMessageStoreApplication in 1.536 seconds (JVM running for 2.137)
+2025-05-05 16:06:39 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:06:39 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 26260 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:06:39 -The following 1 profile is active: "dev"
+2025-05-05 16:06:40 -Tomcat initialized with port(s): 8989 (http)
+2025-05-05 16:06:40 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:06:40 -Starting service [Tomcat]
+2025-05-05 16:06:40 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-05 16:06:40 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:06:40 -Root WebApplicationContext: initialization completed in 566 ms
+2025-05-05 16:06:41 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:06:41 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-05 16:06:41 -Started AppServiceApplication in 1.702 seconds (JVM running for 2.285)
+2025-05-05 16:06:49 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:06:49 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 23424 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:06:49 -The following 1 profile is active: "dev"
+2025-05-05 16:06:51 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 16:06:51 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 16:06:51 -Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-05-05 16:06:51 -Tomcat initialized with port(s): 8000 (http)
+2025-05-05 16:06:51 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-05 16:06:51 -Starting service [Tomcat]
+2025-05-05 16:06:51 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-05 16:06:51 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:06:51 -Root WebApplicationContext: initialization completed in 1672 ms
+2025-05-05 16:07:43 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'zKit'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ZKit': Unsatisfied dependency expressed through field 'zkClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildZKClient' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.I0Itec.zkclient.ZkClient]: Factory method 'buildZKClient' threw exception; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 50000
+2025-05-05 16:07:43 -Stopping service [Tomcat]
+2025-05-05 16:07:43 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-05 16:07:43 -Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'zKit'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ZKit': Unsatisfied dependency expressed through field 'zkClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildZKClient' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.I0Itec.zkclient.ZkClient]: Factory method 'buildZKClient' threw exception; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 50000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.lld.im.service.ServiceApplication.main(ServiceApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ZKit': Unsatisfied dependency expressed through field 'zkClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildZKClient' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.I0Itec.zkclient.ZkClient]: Factory method 'buildZKClient' threw exception; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 50000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'buildZKClient' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.I0Itec.zkclient.ZkClient]: Factory method 'buildZKClient' threw exception; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 50000
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.I0Itec.zkclient.ZkClient]: Factory method 'buildZKClient' threw exception; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 50000
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 47 common frames omitted
+Caused by: org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 50000
+	at org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:876)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:98)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:92)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:76)
+	at com.lld.im.service.config.BeanConfig.buildZKClient(BeanConfig.java:26)
+	at com.lld.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$dfb90dcd.CGLIB$buildZKClient$1(<generated>)
+	at com.lld.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$dfb90dcd$$FastClassBySpringCGLIB$$a55b57f5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.lld.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$dfb90dcd.buildZKClient(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 48 common frames omitted
+2025-05-05 16:08:30 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:08:30 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 33308 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:08:30 -The following 1 profile is active: "dev"
+2025-05-05 16:08:30 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 16:08:30 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 16:08:30 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-05-05 16:08:30 -Tomcat initialized with port(s): 8000 (http)
+2025-05-05 16:08:30 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-05 16:08:30 -Starting service [Tomcat]
+2025-05-05 16:08:30 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-05 16:08:30 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:08:30 -Root WebApplicationContext: initialization completed in 676 ms
+2025-05-05 16:08:32 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-05 16:08:32 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-05 16:08:32 -Attempting to connect to: [localhost:5672]
+2025-05-05 16:08:32 -Created new connection: rabbitConnectionFactory#402d6012:0/SimpleConnection@51297528 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64177]
+2025-05-05 16:08:32 -Started ServiceApplication in 2.617 seconds (JVM running for 3.153)
+2025-05-05 16:09:15 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 16:09:15 -Initializing Servlet 'dispatcherServlet'
+2025-05-05 16:09:15 -Completed initialization in 1 ms
+2025-05-05 16:09:15 -HikariPool-1 - Starting...
+2025-05-05 16:09:16 -HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at org.app.service.impl.LoginServiceImpl$$EnhancerBySpringCGLIB$$1e8f7dbd.register(<generated>)
+	at org.app.controller.LoginController.register(LoginController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2025-05-05 16:09:30 -HikariPool-1 - Starting...
+2025-05-05 16:09:31 -HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at org.app.service.impl.LoginServiceImpl$$EnhancerBySpringCGLIB$$1e8f7dbd.register(<generated>)
+	at org.app.controller.LoginController.register(LoginController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2025-05-05 16:10:59 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:10:59 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 35156 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:10:59 -The following 1 profile is active: "dev"
+2025-05-05 16:10:59 -Tomcat initialized with port(s): 8989 (http)
+2025-05-05 16:10:59 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:10:59 -Starting service [Tomcat]
+2025-05-05 16:10:59 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-05 16:10:59 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:10:59 -Root WebApplicationContext: initialization completed in 522 ms
+2025-05-05 16:11:00 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:11:00 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-05 16:11:00 -Started AppServiceApplication in 1.549 seconds (JVM running for 2.131)
+2025-05-05 16:11:06 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 16:11:06 -Initializing Servlet 'dispatcherServlet'
+2025-05-05 16:11:06 -Completed initialization in 1 ms
+2025-05-05 16:11:06 -HikariPool-1 - Starting...
+2025-05-05 16:11:07 -HikariPool-1 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Unknown database 'im-core'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at org.app.service.impl.LoginServiceImpl$$EnhancerBySpringCGLIB$$2b2e4363.register(<generated>)
+	at org.app.controller.LoginController.register(LoginController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2025-05-05 16:12:02 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:12:02 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 31632 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:12:02 -The following 1 profile is active: "dev"
+2025-05-05 16:12:02 -Tomcat initialized with port(s): 8989 (http)
+2025-05-05 16:12:02 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:12:02 -Starting service [Tomcat]
+2025-05-05 16:12:02 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-05 16:12:02 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:12:02 -Root WebApplicationContext: initialization completed in 549 ms
+2025-05-05 16:12:03 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-05 16:12:03 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-05 16:12:03 -Started AppServiceApplication in 1.612 seconds (JVM running for 2.225)
+2025-05-05 16:12:09 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 16:12:09 -Initializing Servlet 'dispatcherServlet'
+2025-05-05 16:12:09 -Completed initialization in 0 ms
+2025-05-05 16:12:09 -HikariPool-1 - Starting...
+2025-05-05 16:12:09 -HikariPool-1 - Start completed.
+2025-05-05 16:12:09 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 16:12:09 -Initializing Servlet 'dispatcherServlet'
+2025-05-05 16:12:09 -Completed initialization in 1 ms
+2025-05-05 16:12:10 -HikariPool-1 - Starting...
+2025-05-05 16:12:10 -HikariPool-1 - Start completed.
+2025-05-05 16:13:01 -Waiting for workers to finish.
+2025-05-05 16:13:01 -Waiting for workers to finish.
+2025-05-05 16:13:02 -Successfully waited for workers to finish.
+2025-05-05 16:13:02 -Successfully waited for workers to finish.
+2025-05-05 16:13:02 -Shutdown ignored - container is already stopped
+2025-05-05 16:13:02 -Shutdown ignored - container is already stopped
+2025-05-05 16:13:02 -HikariPool-1 - Shutdown initiated...
+2025-05-05 16:13:02 -HikariPool-1 - Shutdown completed.
+2025-05-05 16:13:05 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-05 16:13:05 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 10296 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-05 16:13:05 -The following 1 profile is active: "dev"
+2025-05-05 16:13:05 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-05 16:13:05 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-05 16:13:05 -Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-05-05 16:13:06 -Tomcat initialized with port(s): 8000 (http)
+2025-05-05 16:13:06 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-05 16:13:06 -Starting service [Tomcat]
+2025-05-05 16:13:06 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-05 16:13:06 -Initializing Spring embedded WebApplicationContext
+2025-05-05 16:13:06 -Root WebApplicationContext: initialization completed in 817 ms
+2025-05-05 16:13:07 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-05 16:13:07 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-05 16:13:07 -Attempting to connect to: [localhost:5672]
+2025-05-05 16:13:07 -Created new connection: rabbitConnectionFactory#72324965:0/SimpleConnection@b671dda [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64649]
+2025-05-05 16:13:07 -Started ServiceApplication in 2.891 seconds (JVM running for 3.581)
+2025-05-05 16:13:25 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05 16:13:25 -Initializing Servlet 'dispatcherServlet'
+2025-05-05 16:13:25 -Completed initialization in 1 ms
+2025-05-05 16:13:26 -HikariPool-1 - Starting...
+2025-05-05 16:13:26 -HikariPool-1 - Start completed.
+2025-05-05 16:52:11 -Waiting for workers to finish.
+2025-05-05 16:52:11 -Waiting for workers to finish.
+2025-05-05 16:52:11 -Waiting for workers to finish.
+2025-05-05 16:52:11 -Waiting for workers to finish.
+2025-05-05 16:52:11 -HikariPool-1 - Shutdown initiated...
+2025-05-05 16:52:11 -HikariPool-1 - Shutdown completed.
+2025-05-05 16:52:12 -Successfully waited for workers to finish.
+2025-05-05 16:52:12 -Successfully waited for workers to finish.
+2025-05-05 16:52:12 -Successfully waited for workers to finish.
+2025-05-05 16:52:12 -Shutdown ignored - container is already stopped
+2025-05-05 16:52:12 -Shutdown ignored - container is already stopped
+2025-05-05 16:52:12 -Successfully waited for workers to finish.
+2025-05-05 16:52:12 -Shutdown ignored - container is already stopped
+2025-05-05 16:52:12 -Shutdown ignored - container is already stopped
+2025-05-05 16:52:12 -HikariPool-1 - Shutdown initiated...
+2025-05-05 16:52:12 -HikariPool-1 - Shutdown completed.

@@ -1,0 +1,365 @@
+2025-05-01 18:27:16 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 18:27:16 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 2480 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 18:27:16 -The following 1 profile is active: "dev"
+2025-05-01 18:27:17 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 18:27:17 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 18:27:17 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-05-01 18:27:17 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 18:27:17 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 18:27:17 -Starting service [Tomcat]
+2025-05-01 18:27:17 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 18:27:17 -Initializing Spring embedded WebApplicationContext
+2025-05-01 18:27:17 -Root WebApplicationContext: initialization completed in 1412 ms
+2025-05-01 18:27:28 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 18:27:28 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 18:27:28 -Started ServiceApplication in 12.237 seconds (JVM running for 12.849)
+2025-05-01 18:28:54 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 18:28:54 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 18:28:54 -Completed initialization in 0 ms
+2025-05-01 18:32:52 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 18:32:52 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 20668 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 18:32:52 -The following 1 profile is active: "dev"
+2025-05-01 18:32:52 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 18:32:52 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 18:32:52 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-05-01 18:32:53 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 18:32:53 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 18:32:53 -Starting service [Tomcat]
+2025-05-01 18:32:53 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 18:32:53 -Initializing Spring embedded WebApplicationContext
+2025-05-01 18:32:53 -Root WebApplicationContext: initialization completed in 635 ms
+2025-05-01 18:33:14 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 18:33:14 -Started ServiceApplication in 22.327 seconds (JVM running for 22.914)
+2025-05-01 18:33:16 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 18:33:16 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 35568 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 18:33:16 -The following 1 profile is active: "dev"
+2025-05-01 18:33:17 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 18:33:17 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 18:33:17 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-05-01 18:33:17 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 18:33:17 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 18:33:17 -Starting service [Tomcat]
+2025-05-01 18:33:17 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 18:33:17 -Initializing Spring embedded WebApplicationContext
+2025-05-01 18:33:17 -Root WebApplicationContext: initialization completed in 650 ms
+2025-05-01 18:33:39 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 18:33:39 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 18:33:39 -Started ServiceApplication in 22.346 seconds (JVM running for 22.968)
+2025-05-01 18:33:39 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 18:33:39 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 18:33:39 -Completed initialization in 0 ms
+2025-05-01 19:38:09 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 19:38:09 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 29936 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 19:38:09 -The following 1 profile is active: "dev"
+2025-05-01 19:38:10 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 19:38:10 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 19:38:10 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-05-01 19:38:10 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 19:38:10 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 19:38:10 -Starting service [Tomcat]
+2025-05-01 19:38:10 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 19:38:10 -Initializing Spring embedded WebApplicationContext
+2025-05-01 19:38:10 -Root WebApplicationContext: initialization completed in 635 ms
+2025-05-01 19:38:10 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'routeHandle'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.lld.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.NoSuchMethodException: com.lld.im.common.route.algorithm.consistenthash.ConsistentHashHandle.setHash(com.lld.im.common.route.algorithm.consistenthash.AbstractConsistentHash)
+2025-05-01 19:38:10 -Stopping service [Tomcat]
+2025-05-01 19:38:10 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-01 19:38:10 -Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'routeHandle'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.lld.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.NoSuchMethodException: com.lld.im.common.route.algorithm.consistenthash.ConsistentHashHandle.setHash(com.lld.im.common.route.algorithm.consistenthash.AbstractConsistentHash)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.lld.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [com/lld/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.lld.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.NoSuchMethodException: com.lld.im.common.route.algorithm.consistenthash.ConsistentHashHandle.setHash(com.lld.im.common.route.algorithm.consistenthash.AbstractConsistentHash)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.lld.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.NoSuchMethodException: com.lld.im.common.route.algorithm.consistenthash.ConsistentHashHandle.setHash(com.lld.im.common.route.algorithm.consistenthash.AbstractConsistentHash)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.lld.im.common.route.algorithm.consistenthash.ConsistentHashHandle.setHash(com.lld.im.common.route.algorithm.consistenthash.AbstractConsistentHash)
+	at java.base/java.lang.Class.getMethod(Class.java:2108)
+	at com.lld.im.service.config.BeanConfig.routeHandle(BeanConfig.java:31)
+	at com.lld.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$ef9584db.CGLIB$routeHandle$1(<generated>)
+	at com.lld.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$ef9584db$$FastClassBySpringCGLIB$$c710643e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.lld.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$ef9584db.routeHandle(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 34 common frames omitted
+2025-05-01 19:39:56 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 19:39:56 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 39392 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 19:39:56 -The following 1 profile is active: "dev"
+2025-05-01 19:39:56 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 19:39:56 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 19:39:56 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-05-01 19:39:56 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 19:39:56 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 19:39:56 -Starting service [Tomcat]
+2025-05-01 19:39:56 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 19:39:56 -Initializing Spring embedded WebApplicationContext
+2025-05-01 19:39:56 -Root WebApplicationContext: initialization completed in 613 ms
+2025-05-01 19:40:18 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 19:40:18 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 19:40:18 -Started ServiceApplication in 22.32 seconds (JVM running for 22.905)
+2025-05-01 19:40:40 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 19:40:40 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 19:40:40 -Completed initialization in 0 ms
+2025-05-01 20:26:57 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:26:57 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 27712 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:26:57 -The following 1 profile is active: "dev"
+2025-05-01 20:26:57 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 20:26:57 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 20:26:57 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-05-01 20:26:57 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 20:26:57 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:26:57 -Starting service [Tomcat]
+2025-05-01 20:26:57 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 20:26:57 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:26:57 -Root WebApplicationContext: initialization completed in 665 ms
+2025-05-01 20:27:19 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:27:19 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 20:27:19 -Started ServiceApplication in 22.412 seconds (JVM running for 22.986)
+2025-05-01 20:42:44 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:42:44 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 30236 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:42:44 -The following 1 profile is active: "dev"
+2025-05-01 20:42:45 -Tomcat initialized with port(s): 8989 (http)
+2025-05-01 20:42:45 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:42:45 -Starting service [Tomcat]
+2025-05-01 20:42:45 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-01 20:42:45 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:42:45 -Root WebApplicationContext: initialization completed in 723 ms
+2025-05-01 20:42:45 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:42:45 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-01 20:42:45 -Started AppServiceApplication in 1.741 seconds (JVM running for 2.387)
+2025-05-01 20:43:04 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:43:04 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 41456 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:43:04 -The following 1 profile is active: "dev"
+2025-05-01 20:43:05 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 20:43:05 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 20:43:05 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-05-01 20:43:05 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 20:43:05 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:43:05 -Starting service [Tomcat]
+2025-05-01 20:43:05 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 20:43:05 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:43:05 -Root WebApplicationContext: initialization completed in 690 ms
+2025-05-01 20:43:12 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:43:12 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 20:43:12 -Started ServiceApplication in 8.426 seconds (JVM running for 8.935)
+2025-05-01 20:44:33 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:44:33 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 21496 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:44:33 -The following 1 profile is active: "dev"
+2025-05-01 20:44:33 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 20:44:33 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 20:44:33 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-05-01 20:44:34 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 20:44:34 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:44:34 -Starting service [Tomcat]
+2025-05-01 20:44:34 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 20:44:34 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:44:34 -Root WebApplicationContext: initialization completed in 638 ms
+2025-05-01 20:44:55 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:44:55 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 20:44:55 -Started ServiceApplication in 22.376 seconds (JVM running for 22.904)
+2025-05-01 20:45:01 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 20:45:01 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 20:45:01 -Completed initialization in 0 ms
+2025-05-01 20:45:01 -HikariPool-1 - Starting...
+2025-05-01 20:45:01 -HikariPool-1 - Start completed.
+2025-05-01 20:50:52 -HikariPool-1 - Shutdown initiated...
+2025-05-01 20:50:52 -HikariPool-1 - Shutdown completed.
+2025-05-01 20:50:56 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:50:56 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 7548 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:50:56 -The following 1 profile is active: "dev"
+2025-05-01 20:50:56 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 20:50:56 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 20:50:56 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-05-01 20:50:56 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 20:50:56 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:50:56 -Starting service [Tomcat]
+2025-05-01 20:50:56 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 20:50:56 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:50:56 -Root WebApplicationContext: initialization completed in 645 ms
+2025-05-01 20:51:18 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:51:18 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 20:51:18 -Started ServiceApplication in 22.426 seconds (JVM running for 22.916)
+2025-05-01 20:51:18 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 20:51:18 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 20:51:18 -Completed initialization in 1 ms
+2025-05-01 20:51:18 -HikariPool-1 - Starting...
+2025-05-01 20:51:18 -HikariPool-1 - Start completed.
+2025-05-01 20:52:10 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 30252 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:52:10 -The following 1 profile is active: "dev"
+2025-05-01 20:52:10 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:52:10 -Tomcat initialized with port(s): 8989 (http)
+2025-05-01 20:52:10 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:52:10 -Starting service [Tomcat]
+2025-05-01 20:52:10 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-01 20:52:10 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:52:10 -Root WebApplicationContext: initialization completed in 498 ms
+2025-05-01 20:52:11 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:52:11 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-01 20:52:11 -Started AppServiceApplication in 1.44 seconds (JVM running for 1.949)
+2025-05-01 20:53:21 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 22580 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:53:21 -The following 1 profile is active: "dev"
+2025-05-01 20:53:21 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:53:22 -Tomcat initialized with port(s): 8989 (http)
+2025-05-01 20:53:22 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:22 -Starting service [Tomcat]
+2025-05-01 20:53:22 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-01 20:53:22 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:53:22 -Root WebApplicationContext: initialization completed in 592 ms
+2025-05-01 20:53:22 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:22 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-01 20:53:22 -Started AppServiceApplication in 1.667 seconds (JVM running for 2.169)
+2025-05-01 20:53:23 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:53:23 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 6956 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:53:23 -The following 1 profile is active: "dev"
+2025-05-01 20:53:23 -Tomcat initialized with port(s): 8989 (http)
+2025-05-01 20:53:23 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:23 -Starting service [Tomcat]
+2025-05-01 20:53:23 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-01 20:53:23 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:53:23 -Root WebApplicationContext: initialization completed in 566 ms
+2025-05-01 20:53:25 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:25 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8989 is already in use
+2025-05-01 20:53:25 -Pausing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:25 -Stopping service [Tomcat]
+2025-05-01 20:53:25 -Stopping ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:25 -Destroying ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:25 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-05-01 20:53:25 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8989 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8989 or configure this application to listen on another port.
+
+2025-05-01 20:53:37 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:53:37 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 7348 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:53:37 -The following 1 profile is active: "dev"
+2025-05-01 20:53:38 -Tomcat initialized with port(s): 8989 (http)
+2025-05-01 20:53:38 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:38 -Starting service [Tomcat]
+2025-05-01 20:53:38 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-01 20:53:38 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:53:38 -Root WebApplicationContext: initialization completed in 567 ms
+2025-05-01 20:53:39 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:53:39 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-01 20:53:39 -Started AppServiceApplication in 2.131 seconds (JVM running for 2.67)
+2025-05-01 20:54:10 -HikariPool-1 - Shutdown initiated...
+2025-05-01 20:54:10 -HikariPool-1 - Shutdown completed.
+2025-05-01 20:54:13 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:54:13 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 13112 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:54:13 -The following 1 profile is active: "dev"
+2025-05-01 20:54:13 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 20:54:13 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 20:54:13 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-05-01 20:54:13 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 20:54:13 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:54:13 -Starting service [Tomcat]
+2025-05-01 20:54:13 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 20:54:13 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:54:13 -Root WebApplicationContext: initialization completed in 688 ms
+2025-05-01 20:54:35 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:54:35 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 20:54:35 -Started ServiceApplication in 22.575 seconds (JVM running for 23.158)
+2025-05-01 20:54:35 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 20:54:35 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 20:54:35 -Completed initialization in 0 ms
+2025-05-01 20:54:35 -HikariPool-1 - Starting...
+2025-05-01 20:54:35 -HikariPool-1 - Start completed.
+2025-05-01 20:55:07 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s109ms684µs100ns).
+2025-05-01 20:55:50 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s725ms477µs500ns).
+2025-05-01 20:55:52 -HikariPool-1 - Shutdown initiated...
+2025-05-01 20:55:52 -HikariPool-1 - Shutdown completed.
+2025-05-01 20:55:54 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:55:54 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 36960 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:55:54 -The following 1 profile is active: "dev"
+2025-05-01 20:55:54 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-01 20:55:54 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-01 20:55:54 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-05-01 20:55:55 -Tomcat initialized with port(s): 8000 (http)
+2025-05-01 20:55:55 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:55:55 -Starting service [Tomcat]
+2025-05-01 20:55:55 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-05-01 20:55:55 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:55:55 -Root WebApplicationContext: initialization completed in 657 ms
+2025-05-01 20:56:03 -Starting AppServiceApplication using Java 11.0.24 on llleee with PID 16244 (D:\BaiduNetdiskDownload\mksz626-Netty+SpringBoot开发即时通讯系统【完结第15章】\课件\课件\l-im-app-server-master\l-im-app-server\target\classes started by 86177 in D:\aaa\im-system)
+2025-05-01 20:56:03 -HV000001: Hibernate Validator 6.2.5.Final
+2025-05-01 20:56:03 -The following 1 profile is active: "dev"
+2025-05-01 20:56:04 -Tomcat initialized with port(s): 8989 (http)
+2025-05-01 20:56:04 -Initializing ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:56:04 -Starting service [Tomcat]
+2025-05-01 20:56:04 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2025-05-01 20:56:04 -Initializing Spring embedded WebApplicationContext
+2025-05-01 20:56:04 -Root WebApplicationContext: initialization completed in 471 ms
+2025-05-01 20:56:05 -Starting ProtocolHandler ["http-nio-8989"]
+2025-05-01 20:56:05 -Tomcat started on port(s): 8989 (http) with context path ''
+2025-05-01 20:56:05 -Started AppServiceApplication in 1.396 seconds (JVM running for 1.884)
+2025-05-01 20:56:16 -Starting ProtocolHandler ["http-nio-8000"]
+2025-05-01 20:56:16 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-05-01 20:56:16 -Started ServiceApplication in 22.387 seconds (JVM running for 22.868)
+2025-05-01 20:56:17 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 20:56:17 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 20:56:17 -Completed initialization in 1 ms
+2025-05-01 20:56:17 -HikariPool-1 - Starting...
+2025-05-01 20:56:17 -HikariPool-1 - Start completed.
+2025-05-01 20:56:17 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 20:56:23 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 20:56:27 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 20:56:58 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 21:02:44 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 21:02:52 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 21:03:52 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 21:04:16 -callback 回调user.modify.after : null出现异常 ： null 
+2025-05-01 21:05:34 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-01 21:05:34 -Initializing Servlet 'dispatcherServlet'
+2025-05-01 21:05:34 -Completed initialization in 0 ms
+2025-05-01 21:46:02 -HikariPool-1 - Shutdown initiated...
+2025-05-01 21:46:02 -HikariPool-1 - Shutdown completed.

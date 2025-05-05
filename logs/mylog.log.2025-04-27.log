@@ -1,0 +1,491 @@
+2025-04-27 13:26:33 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 13:26:33 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 5300 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 13:26:33 -The following 1 profile is active: "dev"
+2025-04-27 13:26:34 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 13:26:34 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 13:26:34 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 13:26:34 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 13:26:34 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 13:26:34 -Starting service [Tomcat]
+2025-04-27 13:26:34 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 13:26:34 -Initializing Spring embedded WebApplicationContext
+2025-04-27 13:26:34 -Root WebApplicationContext: initialization completed in 1041 ms
+2025-04-27 13:26:35 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipController': Unsatisfied dependency expressed through field 'imFriendShipService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendServiceImpl': Unsatisfied dependency expressed through field 'imFriendShipRequestService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipRequestServiceImpl': Unsatisfied dependency expressed through field 'imFriendShipService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'imFriendServiceImpl': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-04-27 13:26:35 -Stopping service [Tomcat]
+2025-04-27 13:26:35 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-27 13:26:35 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   imFriendShipController (field com.lld.im.service.friendship.service.ImFriendService com.lld.im.service.friendship.controller.ImFriendShipController.imFriendShipService)
+┌─────┐
+|  imFriendServiceImpl (field com.lld.im.service.friendship.service.ImFriendShipRequestService com.lld.im.service.friendship.service.impl.ImFriendServiceImpl.imFriendShipRequestService)
+↑     ↓
+|  imFriendShipRequestServiceImpl (field com.lld.im.service.friendship.service.ImFriendService com.lld.im.service.friendship.service.impl.ImFriendShipRequestServiceImpl.imFriendShipService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-04-27 13:29:06 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 13:29:06 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 37904 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 13:29:06 -The following 1 profile is active: "dev"
+2025-04-27 13:29:06 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 13:29:06 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 13:29:06 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-04-27 13:29:06 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 13:29:06 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 13:29:06 -Starting service [Tomcat]
+2025-04-27 13:29:06 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 13:29:06 -Initializing Spring embedded WebApplicationContext
+2025-04-27 13:29:06 -Root WebApplicationContext: initialization completed in 560 ms
+2025-04-27 13:29:07 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipGroupController': Unsatisfied dependency expressed through field 'imFriendShipGroupService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipGroupServiceImpl': Unsatisfied dependency expressed through field 'imFriendShipGroupMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lld.im.service.friendship.dao.mapper.ImFriendShipGroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-04-27 13:29:07 -Stopping service [Tomcat]
+2025-04-27 13:29:07 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-27 13:29:07 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field imFriendShipGroupMapper in com.lld.im.service.friendship.service.impl.ImFriendShipGroupServiceImpl required a bean of type 'com.lld.im.service.friendship.dao.mapper.ImFriendShipGroupMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lld.im.service.friendship.dao.mapper.ImFriendShipGroupMapper' in your configuration.
+
+2025-04-27 13:32:46 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 13:32:46 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 10700 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 13:32:46 -The following 1 profile is active: "dev"
+2025-04-27 13:32:46 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 13:32:46 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 13:32:46 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-04-27 13:32:47 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 13:32:47 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 13:32:47 -Starting service [Tomcat]
+2025-04-27 13:32:47 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 13:32:47 -Initializing Spring embedded WebApplicationContext
+2025-04-27 13:32:47 -Root WebApplicationContext: initialization completed in 583 ms
+2025-04-27 13:32:47 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 13:32:47 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 13:32:47 -Started ServiceApplication in 1.701 seconds (JVM running for 2.223)
+2025-04-27 13:35:22 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 13:35:22 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 13:35:22 -Completed initialization in 1 ms
+2025-04-27 13:35:22 -HikariPool-1 - Starting...
+2025-04-27 13:35:22 -HikariPool-1 - Start completed.
+2025-04-27 13:46:36 -HikariPool-1 - Shutdown initiated...
+2025-04-27 13:46:36 -HikariPool-1 - Shutdown completed.
+2025-04-27 13:49:36 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 13:49:36 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 12544 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 13:49:36 -The following 1 profile is active: "dev"
+2025-04-27 13:49:37 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 13:49:37 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 13:49:37 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 13:49:37 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 13:49:37 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 13:49:37 -Starting service [Tomcat]
+2025-04-27 13:49:37 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 13:49:37 -Initializing Spring embedded WebApplicationContext
+2025-04-27 13:49:37 -Root WebApplicationContext: initialization completed in 802 ms
+2025-04-27 13:49:37 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imGroupController': Unsatisfied dependency expressed through field 'groupService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imGroupServiceImpl': Unsatisfied dependency expressed through field 'imGroupDataMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lld.im.service.group.dao.mapper.ImGroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-04-27 13:49:37 -Stopping service [Tomcat]
+2025-04-27 13:49:37 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-27 13:49:37 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field imGroupDataMapper in com.lld.im.service.group.service.impl.ImGroupServiceImpl required a bean of type 'com.lld.im.service.group.dao.mapper.ImGroupMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lld.im.service.group.dao.mapper.ImGroupMapper' in your configuration.
+
+2025-04-27 13:59:46 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 13:59:46 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 4080 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 13:59:46 -The following 1 profile is active: "dev"
+2025-04-27 13:59:46 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 13:59:46 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 13:59:46 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 13:59:46 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 13:59:46 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 13:59:46 -Starting service [Tomcat]
+2025-04-27 13:59:46 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 13:59:46 -Initializing Spring embedded WebApplicationContext
+2025-04-27 13:59:46 -Root WebApplicationContext: initialization completed in 591 ms
+2025-04-27 13:59:47 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imGroupController': Unsatisfied dependency expressed through field 'groupService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imGroupServiceImpl': Unsatisfied dependency expressed through field 'imGroupDataMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lld.im.service.group.dao.mapper.ImGroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-04-27 13:59:47 -Stopping service [Tomcat]
+2025-04-27 13:59:47 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-27 13:59:47 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field imGroupDataMapper in com.lld.im.service.group.service.impl.ImGroupServiceImpl required a bean of type 'com.lld.im.service.group.dao.mapper.ImGroupMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lld.im.service.group.dao.mapper.ImGroupMapper' in your configuration.
+
+2025-04-27 14:00:36 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:00:36 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 24788 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:00:36 -The following 1 profile is active: "dev"
+2025-04-27 14:00:37 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:00:37 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:00:37 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:00:37 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:00:37 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:00:37 -Starting service [Tomcat]
+2025-04-27 14:00:37 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:00:37 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:00:37 -Root WebApplicationContext: initialization completed in 606 ms
+2025-04-27 14:00:38 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:00:38 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:00:38 -Started ServiceApplication in 1.775 seconds (JVM running for 2.258)
+2025-04-27 14:00:59 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:00:59 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 6604 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:00:59 -The following 1 profile is active: "dev"
+2025-04-27 14:00:59 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:00:59 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:00:59 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:00:59 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:00:59 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:00:59 -Starting service [Tomcat]
+2025-04-27 14:00:59 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:00:59 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:00:59 -Root WebApplicationContext: initialization completed in 622 ms
+2025-04-27 14:01:00 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:01:00 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:01:00 -Started ServiceApplication in 1.736 seconds (JVM running for 2.236)
+2025-04-27 14:01:55 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:01:55 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:01:55 -Completed initialization in 0 ms
+2025-04-27 14:01:55 -HikariPool-1 - Starting...
+2025-04-27 14:01:55 -HikariPool-1 - Start completed.
+2025-04-27 14:10:36 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:10:36 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:10:39 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:10:39 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 12532 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:10:39 -The following 1 profile is active: "dev"
+2025-04-27 14:10:39 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:10:39 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:10:39 -Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:10:40 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:10:40 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:10:40 -Starting service [Tomcat]
+2025-04-27 14:10:40 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:10:40 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:10:40 -Root WebApplicationContext: initialization completed in 605 ms
+2025-04-27 14:10:41 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:10:41 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:10:41 -Started ServiceApplication in 1.735 seconds (JVM running for 2.23)
+2025-04-27 14:10:42 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:10:42 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:10:42 -Completed initialization in 0 ms
+2025-04-27 14:10:42 -HikariPool-1 - Starting...
+2025-04-27 14:10:42 -HikariPool-1 - Start completed.
+2025-04-27 14:10:47 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:10:47 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:10:50 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:10:50 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 30072 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:10:50 -The following 1 profile is active: "dev"
+2025-04-27 14:10:51 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:10:51 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:10:51 -Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:10:51 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:10:51 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:10:51 -Starting service [Tomcat]
+2025-04-27 14:10:51 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:10:51 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:10:51 -Root WebApplicationContext: initialization completed in 582 ms
+2025-04-27 14:10:52 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:10:52 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:10:52 -Started ServiceApplication in 1.788 seconds (JVM running for 2.285)
+2025-04-27 14:10:52 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:10:52 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:10:52 -Completed initialization in 0 ms
+2025-04-27 14:10:52 -HikariPool-1 - Starting...
+2025-04-27 14:10:52 -HikariPool-1 - Start completed.
+2025-04-27 14:17:03 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:17:03 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:17:07 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:17:07 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 33220 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:17:07 -The following 1 profile is active: "dev"
+2025-04-27 14:17:07 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:17:07 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:17:07 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:17:07 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:17:07 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:17:07 -Starting service [Tomcat]
+2025-04-27 14:17:07 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:17:07 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:17:07 -Root WebApplicationContext: initialization completed in 687 ms
+2025-04-27 14:17:08 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:17:08 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:17:08 -Started ServiceApplication in 1.836 seconds (JVM running for 2.37)
+2025-04-27 14:17:10 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:17:10 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:17:10 -Completed initialization in 0 ms
+2025-04-27 14:17:10 -HikariPool-1 - Starting...
+2025-04-27 14:17:10 -HikariPool-1 - Start completed.
+2025-04-27 14:19:52 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:19:52 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:19:55 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:19:55 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 10728 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:19:55 -The following 1 profile is active: "dev"
+2025-04-27 14:19:56 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:19:56 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:19:56 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:19:56 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:19:56 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:19:56 -Starting service [Tomcat]
+2025-04-27 14:19:56 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:19:56 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:19:56 -Root WebApplicationContext: initialization completed in 626 ms
+2025-04-27 14:19:57 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:19:57 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:19:57 -Started ServiceApplication in 1.776 seconds (JVM running for 2.269)
+2025-04-27 14:19:59 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:19:59 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:19:59 -Completed initialization in 1 ms
+2025-04-27 14:19:59 -HikariPool-1 - Starting...
+2025-04-27 14:19:59 -HikariPool-1 - Start completed.
+2025-04-27 14:20:18 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:20:18 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:20:22 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:20:22 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 26584 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:20:22 -The following 1 profile is active: "dev"
+2025-04-27 14:20:22 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:20:22 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:20:22 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:20:22 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:20:22 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:20:22 -Starting service [Tomcat]
+2025-04-27 14:20:22 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:20:22 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:20:22 -Root WebApplicationContext: initialization completed in 688 ms
+2025-04-27 14:20:23 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:20:23 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:20:23 -Started ServiceApplication in 1.934 seconds (JVM running for 2.864)
+2025-04-27 14:20:25 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:20:25 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:20:25 -Completed initialization in 1 ms
+2025-04-27 14:21:19 -HikariPool-1 - Starting...
+2025-04-27 14:21:19 -HikariPool-1 - Start completed.
+2025-04-27 14:22:59 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:22:59 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:23:01 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:23:01 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 34564 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:23:01 -The following 1 profile is active: "dev"
+2025-04-27 14:23:02 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:23:02 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:23:02 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:23:02 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:23:02 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:23:02 -Starting service [Tomcat]
+2025-04-27 14:23:02 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:23:02 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:23:02 -Root WebApplicationContext: initialization completed in 666 ms
+2025-04-27 14:23:03 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:23:03 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:23:03 -Started ServiceApplication in 1.995 seconds (JVM running for 2.643)
+2025-04-27 14:23:05 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:23:05 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:23:05 -Completed initialization in 0 ms
+2025-04-27 14:23:05 -HikariPool-1 - Starting...
+2025-04-27 14:23:05 -HikariPool-1 - Start completed.
+2025-04-27 14:23:50 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:23:50 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:23:52 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:23:52 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 3640 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:23:52 -The following 1 profile is active: "dev"
+2025-04-27 14:23:53 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:23:53 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:23:53 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:23:53 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:23:53 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:23:53 -Starting service [Tomcat]
+2025-04-27 14:23:53 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:23:53 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:23:53 -Root WebApplicationContext: initialization completed in 673 ms
+2025-04-27 14:23:54 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:23:54 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:23:54 -Started ServiceApplication in 2.045 seconds (JVM running for 2.665)
+2025-04-27 14:23:55 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:23:55 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:23:55 -Completed initialization in 1 ms
+2025-04-27 14:23:55 -HikariPool-1 - Starting...
+2025-04-27 14:23:55 -HikariPool-1 - Start completed.
+2025-04-27 14:24:54 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s569ms318µs200ns).
+2025-04-27 14:24:54 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:24:54 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:26:29 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:26:29 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 27752 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:26:29 -The following 1 profile is active: "dev"
+2025-04-27 14:26:29 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:26:29 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:26:29 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:26:29 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:26:29 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:26:29 -Starting service [Tomcat]
+2025-04-27 14:26:29 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:26:30 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:26:30 -Root WebApplicationContext: initialization completed in 651 ms
+2025-04-27 14:26:30 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:26:30 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:26:30 -Started ServiceApplication in 1.82 seconds (JVM running for 2.307)
+2025-04-27 14:26:32 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:26:32 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:26:32 -Completed initialization in 1 ms
+2025-04-27 14:26:32 -HikariPool-1 - Starting...
+2025-04-27 14:26:33 -HikariPool-1 - Start completed.
+2025-04-27 14:44:38 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:44:38 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:44:42 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:44:42 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 38932 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:44:42 -The following 1 profile is active: "dev"
+2025-04-27 14:44:42 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:44:42 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:44:42 -Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:44:42 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:44:42 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:44:42 -Starting service [Tomcat]
+2025-04-27 14:44:42 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:44:42 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:44:42 -Root WebApplicationContext: initialization completed in 680 ms
+2025-04-27 14:44:43 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:44:43 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:44:43 -Started ServiceApplication in 1.79 seconds (JVM running for 2.313)
+2025-04-27 14:46:34 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:46:34 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 26240 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:46:34 -The following 1 profile is active: "dev"
+2025-04-27 14:46:34 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:46:34 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:46:34 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:46:34 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:46:34 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:46:34 -Starting service [Tomcat]
+2025-04-27 14:46:34 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:46:34 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:46:34 -Root WebApplicationContext: initialization completed in 621 ms
+2025-04-27 14:46:35 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:46:35 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:46:35 -Started ServiceApplication in 1.726 seconds (JVM running for 2.228)
+2025-04-27 14:48:29 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:48:29 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:48:29 -Completed initialization in 0 ms
+2025-04-27 14:48:29 -HikariPool-1 - Starting...
+2025-04-27 14:48:29 -HikariPool-1 - Start completed.
+2025-04-27 14:49:37 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:49:37 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:49:41 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:49:41 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 2812 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:49:41 -The following 1 profile is active: "dev"
+2025-04-27 14:49:41 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:49:41 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:49:41 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:49:41 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:49:41 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:49:41 -Starting service [Tomcat]
+2025-04-27 14:49:41 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:49:41 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:49:41 -Root WebApplicationContext: initialization completed in 572 ms
+2025-04-27 14:49:42 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:49:42 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:49:42 -Started ServiceApplication in 1.681 seconds (JVM running for 2.189)
+2025-04-27 14:49:43 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:49:43 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:49:43 -Completed initialization in 0 ms
+2025-04-27 14:49:43 -HikariPool-1 - Starting...
+2025-04-27 14:49:43 -HikariPool-1 - Start completed.
+2025-04-27 14:50:41 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:50:41 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:50:44 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:50:44 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 32956 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:50:44 -The following 1 profile is active: "dev"
+2025-04-27 14:50:44 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:50:44 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:50:44 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:50:44 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:50:44 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:50:44 -Starting service [Tomcat]
+2025-04-27 14:50:44 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:50:44 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:50:44 -Root WebApplicationContext: initialization completed in 607 ms
+2025-04-27 14:50:45 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:50:45 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:50:45 -Started ServiceApplication in 1.689 seconds (JVM running for 2.18)
+2025-04-27 14:50:47 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 14:50:47 -Initializing Servlet 'dispatcherServlet'
+2025-04-27 14:50:47 -Completed initialization in 0 ms
+2025-04-27 14:50:47 -HikariPool-1 - Starting...
+2025-04-27 14:50:47 -HikariPool-1 - Start completed.
+2025-04-27 14:56:25 -HikariPool-1 - Shutdown initiated...
+2025-04-27 14:56:25 -HikariPool-1 - Shutdown completed.
+2025-04-27 14:56:29 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 14:56:29 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 10496 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 14:56:29 -The following 1 profile is active: "dev"
+2025-04-27 14:56:29 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 14:56:29 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 14:56:29 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 14:56:29 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 14:56:29 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:56:29 -Starting service [Tomcat]
+2025-04-27 14:56:29 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 14:56:30 -Initializing Spring embedded WebApplicationContext
+2025-04-27 14:56:30 -Root WebApplicationContext: initialization completed in 616 ms
+2025-04-27 14:56:30 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 14:56:30 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 14:56:30 -Started ServiceApplication in 1.701 seconds (JVM running for 2.181)
+2025-04-27 16:06:39 -HV000001: Hibernate Validator 6.2.5.Final
+2025-04-27 16:06:39 -Starting ServiceApplication using Java 11.0.24 on llleee with PID 9712 (D:\aaa\im-system\service\target\classes started by 86177 in D:\aaa\im-system)
+2025-04-27 16:06:39 -The following 1 profile is active: "dev"
+2025-04-27 16:06:39 -Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-27 16:06:39 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-27 16:06:40 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-27 16:06:40 -Tomcat initialized with port(s): 8000 (http)
+2025-04-27 16:06:40 -Initializing ProtocolHandler ["http-nio-8000"]
+2025-04-27 16:06:40 -Starting service [Tomcat]
+2025-04-27 16:06:40 -Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-04-27 16:06:40 -Initializing Spring embedded WebApplicationContext
+2025-04-27 16:06:40 -Root WebApplicationContext: initialization completed in 1197 ms
+2025-04-27 16:06:41 -Starting ProtocolHandler ["http-nio-8000"]
+2025-04-27 16:06:41 -Tomcat started on port(s): 8000 (http) with context path ''
+2025-04-27 16:06:41 -Started ServiceApplication in 2.484 seconds (JVM running for 3.292)
